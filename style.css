@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(179 233 255);
+}
+
+.main{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.image{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 11px 12px 9px -13px #000000;
+}
+
+.card{
+    width: 35%;
+    position: absolute;
+    right: 850px;
+    top: 250px;
+    box-shadow: 10px 10px 15px -13px #000000, -10px -10px 15px -13px #000000;
+    border-radius: 15px;
+}
+
+.heading{
+    color: rgb(203 233 255);
+    font-size: 65px;
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 1px -1px 8px #000000;
+}
+
+.box1{
+    background-color: white;
+    position: absolute;
+    bottom: 130px;
+    left: 712px;
+    width: 330px;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 15px -13px #000000, -10px -10px 15px -13px #000000;
+}
+
+.pay{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: #265694;
+    text-decoration: underline;
+    text-decoration-color: #8d8d8d;
+}
+
+form{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 80px;
+}
+
+.lab{
+    position: relative;
+    left: 15px;
+}
+
+.inp1{
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    position: relative;
+    left: 40px;
+    
+}
+.inp2{
+    padding: 5px;
+    margin: 5px 0 10px 0;
+    position: relative;
+    left: 20px;
+    
+}
+.inp3{
+    padding: 5px;
+    margin: 5px 0 10px 0;
+    position: relative;
+    left: 82px;
+    
+}
+.inp4{
+    padding: 5px;
+    margin: 5px 0 10px 0;
+    position: relative;
+    left: 105px;
+    
+}
+
+input{
+    border-radius: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #008cc4;
+}
+
+input:hover{
+    border: 1px solid #008cc4;
+}
+
+.amt{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 110px;
+    left: 17px;
+    font-size: 20px;
+}
+
+b{
+    color:#265694;
+}
+
+.btn{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 130px;
+    left: 80px;
+    font-size: 30px;
+    padding: 5px 60px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 10px 8px 20px -18px #000000;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 15px;
+    border-style: outset;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: grey;
+}
+
+
+@media screen and (max-width:600px){
+    .main{
+        position: relative;
+        left: 150px;
+        top: 220px;
+    }
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.main{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: 135px;
+    right: 30px;
+}
+
+.under{
+    width: 130%;
+}
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(134, 198, 255);
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 55px;
+    left: 38px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 100px;
+    left: 420px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(134, 198, 255);
+}
+
+@media screen and (max-width:600px){
+    .main{
+        position: relative;
+        left: 220px;
+        top: 120px;
+    }
+}
